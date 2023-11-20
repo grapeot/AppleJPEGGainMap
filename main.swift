@@ -137,7 +137,7 @@ let sdrImagePath = "white.jpg"
 let gainMapImagePath = "gain_map.png"
 let outputHDRImagePath = "HDR.jpg"
 
-// Extract data strcutures from a reference image
+// Extract data structures from a reference image
 let (gainMeta, gainDescription) = extractGainMap(inputFilePath: referenceImagePath, outputFilePath: nil)
 
 if let gainMeta = gainMeta, let gainDescription = gainDescription {
