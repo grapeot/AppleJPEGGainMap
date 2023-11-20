@@ -16,9 +16,9 @@ This repo, which solely relies on public APIs for gain map extraction and embedd
 2. The HDR images created have limitations; they display correctly on an iPhone but are not recognized by the Mac Photos app. This issue might stem from how the private API interacts with the EXIF tags, as evidenced by the [Adobe demo app](https://helpx.adobe.com/camera-raw/using/gain-map.html) identifying the images as SDR, complicating debugging and visualization. 
 3. A consistent and flexible workflow would be ideal for addressing this challenge in a systematic way.
 
-On the contrary, the resulting HDR image from this repo is rendered correctly not only on an iPhone but also on a Mac. Its metadata and gain map are accurately interpreted by Adobe's demo app and third-party image viewers like HoneyViewer. The insightful discussions and the generous sharing of reference implementations were indispensable to this project. Much of the code and ideas were derived from these discussions, and I would like to extend my sincere gratitude to all the contributors and participants in the online discussions for their invaluable input.
+On the contrary, the resulting HDR image from this repo is rendered correctly not only on an iPhone but also on a Mac. Its metadata and gain map are accurately interpreted by Adobe's demo app and third-party image viewers like HoneyViewer. 
 
-
+The insightful discussions and the generous sharing of reference implementations were indispensable to this project. Much of the code and ideas were derived from these discussions, and I would like to extend my sincere gratitude to all the contributors and participants in the online discussions for their invaluable input.
 
 ## Usage and Code Structure
 
